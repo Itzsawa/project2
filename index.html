@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+
+    <link rel="stylesheet" href="#style.css">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        
+        #example1 {
+            background-image: url(Images/background.jpg);
+            background-size: cover;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px; 
+        }
+
+        .small_profile {
+            border-radius: 130px;
+            border: 10px solid rgba(255, 242, 0, 0.789);
+            width: 90px;
+            margin-top: 30px;
+        }
+
+        .Sammy {
+            color: white;
+            font-size: 70px;
+            margin: 0;
+        }
+
+        .Sammy1 {
+            color: white;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        
+        .large {
+            width: 420px;
+            float: left;
+            margin: 100px;
+        }
+
+        .large_container {
+            margin: 100px;
+            line-height: 3.0;
+        }
+
+        
+        .footer {
+            text-align: center;
+            border: 20px solid yellow;
+        }
+
+        .last {
+            height: 70px;
+            background-color: rgba(255, 187, 0, 0.864);
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 1024px) {
+            /* For tablets */
+            .large {
+                width: 100%; /* Image takes full width on smaller screens */
+                margin: 50px 0;
+            }
+
+            .large_container {
+                margin: 50px;
+            }
+
+            .Sammy {
+                font-size: 50px;
+            }
+
+            .Sammy1 {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            /* For smaller tablets or large phones */
+            .large {
+                width: 100%;
+                margin: 20px 0;
+            }
+
+            .large_container {
+                margin: 20px;
+            }
+
+            .Sammy {
+                font-size: 40px;
+            }
+
+            .Sammy1 {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            /* For mobile devices */
+            .small_profile {
+                width: 70px;
+                margin-top: 20px;
+            }
+
+            .Sammy {
+                font-size: 30px;
+            }
+
+            .Sammy1 {
+                font-size: 12px;
+                
+            }
+
+            .large {
+                width: 100%; /* Image takes full width on small screens */
+                margin: 10px 0;
+            }
+
+            .large_container {
+                margin: 10px;
+                padding: 10px;
+                line-height: 1.5;
+            }
+
+            .last {
+                font-size: 16px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Section 1 -->
+    <div id="example1">
+        <img class="small_profile" src="Images/small-profile.jpeg" alt="Profile Image">
+        <h1 class="Sammy">Sammy the Shark</h1>
+        <p class="Sammy1">Senior Selachimorpha Digan.</p>
+        <a class="tag" href="index.html">About this site</a>
+    </div>
+
+    <!-- Section 2 -->
+    <img src="Images/large-profile.jpg" class="large" alt="Large Profile Image">
+    <div class="large_container">
+        <h2>Hello</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure et, voluptatem pariatur hic blanditiis rem
+            ipsum placeat officia maxime labore magnam a voluptas voluptate iste esse provident corrupti! Deleniti sit ad
+            aperiam eligendi animi deserunt aliquid illo doloribus mollitia, quia, corrupti placeat consectetur excepturi
+            totam rerum ullam fuga vel aliquam neque tempore. Facere blanditiis minus sapiente quam nisi non sint
+            pariatur autem deleniti, accusamus porro perferendis architecto! Earum delectus debitis optio, ad quo, esse
+            id, similique quas fuga deserunt pariatur velit odit impedit. Veritatis temporibus dolore saepe suscipit
+            pariatur vero aspernatur quo magni fugiat ut. Praesentium ex asperiores veritatis sit?</p>
+        <p>Email me at <a href="index.html">sammy@sampleEmail.com</a></p>
+    </div>
+
+    <!-- Footer -->
+    <div class="last">
+        <h2>Made with ❤ at Lorem</h2>
+    </div>
+
+</body>
+
+</html>
